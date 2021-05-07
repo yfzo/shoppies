@@ -46,7 +46,7 @@ export default function App(props) {
           setState((prev) => ({ ...prev, loading: true }));
 
           const res = await axios.get(
-            `http://www.omdbapi.com/?s=${state.query}&type=movie&apikey=${apiKey}`,
+            `https://www.omdbapi.com/?s=${state.query}&type=movie&apikey=${apiKey}`,
             {
               cancelToken: source.token,
             }
