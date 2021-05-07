@@ -1,0 +1,60 @@
+.custom-button {
+  border-radius: 0.15rem;
+  border: 0;
+  font-size: 1rem;
+  height: 2rem;
+  line-height: 1.2rem;
+  margin-right: 1rem;
+  width: 8rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  color: #fff;
+  background-color: transparent;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid transparent;
+}
+
+.custom-button--remove {
+  color: #000;
+  border-color: #000;
+  background-color: #fff;
+}
+
+.custom-button--nominate {
+  color: #ad741d;
+  border-color: #ad741d;
+  background-color: #fff;
+}
+
+.custom-button--remove:hover {
+  color: #fff;
+  background-color: #554e45;
+}
+
+.custom-button--nominate:hover {
+  color: #fff;
+  background-color: #ad741d;
+}
+
+.custom-button:last-of-type {
+  margin-right: 0;
+}
+
+.custom-button:focus {
+  outline: none;
+}
+
+.custom-button:disabled {
+  border-style: solid;
+  border-color: #777;
+  color: #777;
+  background-color: #dcdcdc42;
+  opacity: 0.5;
+  cursor: default;
+}

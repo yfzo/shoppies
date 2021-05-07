@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+.nominations {
+  margin: 2rem 0;
+  .nominations__header {
+    margin-bottom: 2rem;
+  }
+  .no-nominations-msg {
+    height: 250px;
+  }
+  .nominations__list {
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    .movie-nomination {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      border-right: solid;
+      border-color: $peach;
+      &:last-of-type {
+        border: 0;
+      }
+      .movie-nomination__info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .movie-nomination__info__year {
+          font-style: italic;
+        }
+      }
+    }
+  }
+}

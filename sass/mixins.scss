@@ -1,0 +1,17 @@
+@mixin custom-button-active {
+  cursor: pointer;
+}
+
+@mixin custom-button-inactive--opacity {
+  @include fade;
+  opacity: 0.7;
+}
+
+@mixin custom-button-active--opacity {
+  @include custom-button-active;
+  opacity: 1;
+}
+
+@mixin uppercase {
+  text-transform: uppercase;
+}

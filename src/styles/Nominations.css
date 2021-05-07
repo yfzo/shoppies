@@ -1,0 +1,34 @@
+.nominations {
+  margin: 2rem 0;
+}
+.nominations .nominations__header {
+  margin-bottom: 2rem;
+}
+.nominations .no-nominations-msg {
+  height: 250px;
+}
+.nominations .nominations__list {
+  min-height: 250px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.nominations .nominations__list .movie-nomination {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-right: solid;
+  border-color: #f1ca9b;
+}
+.nominations .nominations__list .movie-nomination:last-of-type {
+  border: 0;
+}
+.nominations .nominations__list .movie-nomination .movie-nomination__info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.nominations .nominations__list .movie-nomination .movie-nomination__info .movie-nomination__info__year {
+  font-style: italic;
+}

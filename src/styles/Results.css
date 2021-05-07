@@ -1,0 +1,23 @@
+.results {
+  margin-bottom: 2rem;
+}
+
+.movie-result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 3.5rem;
+}
+.movie-result:nth-child(odd) {
+  border: 1px solid;
+  border-left: 0;
+  border-right: 0;
+  border-color: #387752;
+}
+.movie-result:last-of-type {
+  border-bottom: 1px solid;
+}
+.movie-result:hover {
+  background-color: #4da27045;
+}
